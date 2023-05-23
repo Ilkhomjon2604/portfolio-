@@ -135,6 +135,86 @@ select:-webkit-autofill:focus {
 
 /* navbar end  */
 
+/* Hero part start */
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-main {
+ 
+  position: relative;
+}
+.title {
+  font-size: 60px;
+  font-weight: 900;
+  text-align: start;
+  margin-bottom: 200px;
+}
+.hero-avatar {
+  position: absolute;
+  right: 0;
+  top: -70px;
+  width: 300px;
+}
+
+.hero-media-link {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  margin: 0 10px ;
+}
+
+.hero-media-link:hover {
+  color: coral;
+  font-weight: 700;
+}
+.hero-side {
+  width: 30%;
+}
+.hero-side-img {
+  position: relative;
+  margin-top: 70px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tringle{
+  position: absolute;
+  top: -90;
+  left: 0;
+  transform: rotate(35deg);
+  -webkit-transform: rotate(35deg);
+  -moz-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+}
+
+.link {
+  color: coral;
+  text-decoration: underline;
+}
+.line {
+  margin-left: 10px;
+  width: 70px;
+  height: 1px;
+  background-color: coral;
+}
+
+.wrap-it{
+  margin: 20px 0 ;
+  display: flex;
+  align-items: center;
+}
+.hero-side-title {
+    font-size: 32px ;
+}
+.hero-side-textinfo {
+  color: #d3d3d3;
+}
+
+/* Hero part end  */
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
