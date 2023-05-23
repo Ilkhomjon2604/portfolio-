@@ -21,7 +21,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: #000000;
-  color: #222;
+  color: #ffffff;
 }
 
 img {
@@ -76,6 +76,9 @@ select:-webkit-autofill:focus {
   overflow: hidden;
 }
 
+.active{
+  color: coral;
+}
 
 /* CONTAINER */
 .container {
@@ -92,6 +95,45 @@ select:-webkit-autofill:focus {
 .main-content {
   flex-grow: 1;
 }
+
+/* navbar start  */
+
+.navbar {
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+}
+.navber-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo-link {
+}
+.nav-list {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.nav-list-item:hover a {
+  color: coral;
+}
+.nav-item-link {
+  
+}
+.menu-icons-wrapper {
+}
+.search {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.menu {
+  cursor: pointer;
+}
+
+
+/* navbar end  */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
