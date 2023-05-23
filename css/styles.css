@@ -99,9 +99,11 @@ select:-webkit-autofill:focus {
 /* navbar start  */
 
 .navbar {
+  background-color: #000;
   padding: 20px 0;
   position: sticky;
   top: 0;
+  z-index: 99;
 }
 .navber-wrapper {
   display: flex;
@@ -140,6 +142,7 @@ select:-webkit-autofill:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 70px;
 }
 .hero-main {
  
